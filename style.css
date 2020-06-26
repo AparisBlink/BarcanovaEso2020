@@ -885,172 +885,159 @@ body #book-index #indice .col-main {
 
 		/*-------------FUENTES------------*/
 
-        /*ROBOTO SLAB*/
+            /*ROBOTO SLAB*/
+            /* CSS: font-family: 'Roboto Slab', serif; */
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,900&display=swap');
 
-        /* CSS: font-family: 'Roboto Slab', serif; */
-        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,900&display=swap');
+            /*PANGOLIN*/
+            /*CSS - font-family: 'Pangolin', cursive;*/
+            @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
 
-        /*PANGOLIN*/
+            /*PT SANS NARROW*/
+            /* CSS - font-family: 'PT Sans Narrow', sans-serif; */
+            @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
 
-        /*CSS - font-family: 'Pangolin', cursive;*/
-        @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+            /*MONTSERRAT EXTRA BOLD*/
+            /*font-family: 'Montserrat', sans-serif;*/
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+            
+        /*--------------*/
 
-        /*PT SANS NARROW*/
+        /*------------------------------------------*/
+            /*DISPLAY EN LA PRIMERA Y SEGUNDA PANTALLA*/
+            /*-------------------------------------------*/
+            #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
+                display: none;
+            }
+            #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
+                display: none;
+            }
+            #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
+                display: none;
+            }
+            #layout-container div[id*=section-screen] .section .section-data .desc-wrapper .section-desc {
+                display: none;
+            }
+            #layout-container div[id*=section-screen] .section .section-data .desc-wrapper .section-number {
+                display: none;
+            }
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .no-resources .content-item .content-page-count,
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-page-count,
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-page-count {
+                display: none;
+            }
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .no-resources .content-item .content-lock,
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-lock,
+            #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-lock {
+                display: none;
+            }
 
-        /* CSS - font-family: 'PT Sans Narrow', sans-serif; */
-        @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
-
-        /*MONTSERRAT EXTRA BOLD*/
-
-        /*font-family: 'Montserrat', sans-serif;*/
-        @import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
-
-        /*DISPLAY EN LA PRIMERA Y SEGUNDA PANTALLA*/
-
-        .abp-section_unit-inner .abp-section-header-bottom::before {
-        display: none;
-        }
-
-        .abp-unit-number {
-        background: #ffffff;
-        display: none;
-        }
-
-        .abp-units-slider-item::before {
-        display: none;
-        }
-
-        .abp-page::before {
-        background: none;
-        }
-
-        .abp-unit-content-description {
-        display: none;
-        }
-
-        .abp-section_unit-inner .abp-section-header-bottom-description {
-        display: none;
-        }
-
-        .abp-unit-content::before {
-        display: none;
-        }
-
-
+        /**/
+        /*--------------------------*/
         /*Ajustes generales que afectan a todas las slides*/
-
-        body {
-        font: 400 18px 'Roboto', sans-serif;
-        color: #414141;
-        background-color: #000000;
-        }
-
-        .texto_curso p {
-        line-height: 1.7em!important;
-        margin-bottom: 10px;
-        }
-
-        p {
-        font-size: 18px;
-        }
-
-        #actividad .pregunta .texto_curso {
-        font-size: 18px;
-        }
-
-        .abp-container_2 {
-        max-width: 1240px;
-        margin-bottom: 15px;
-        }
-
-        .bck-img-align-center>figure, .bck-img-align-center img,
-        #actividad .workspace.matching .opcion .bck-img-align-center img,
-        .bck-img-align-center {
-            margin: 0 auto;
-            text-align: center;
-            margin-bottom: 0 !important;
-        }
-        .texto_curso .bck-content ul li, .workspace .bck-content ul li ul li, .cke_contents .bck-content ul li {
-            padding-left: 10px;
-        }
+        /*---------------------------*/
+            body {
+            font: 400 18px 'Roboto', sans-serif;
+            color: #414141;
+            background-color: #000000;
+            }
+            .texto_curso p {
+            line-height: 1.7em!important;
+            margin-bottom: 10px;
+            }
+            p {
+            font-size: 18px;
+            }
+            #actividad .pregunta .texto_curso {
+            font-size: 18px;
+            }
+            .bck-img-align-center>figure, .bck-img-align-center img,
+            #actividad .workspace.matching .opcion .bck-img-align-center img,
+            .bck-img-align-center {
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 0 !important;
+            }
+            .texto_curso .bck-content ul li, .workspace .bck-content ul li ul li, .cke_contents .bck-content ul li {
+                padding-left: 10px;
+            }
+        /*-------*/
         /*NAVBAR*/
+            .navbar-bottom {
+            background-color: #00111d;
+            border-bottom: 6px solid #ffcb00;
+            }
+            .slider-indicators li {
+            background-color: #00111d;
+            text-indent: 0;
+            cursor: pointer;
+            width: auto;
+            height: auto;
+            padding: 3px 20px;
+            color: #ffcb00;
+            text-align: center;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+            }
+            .slider-indicators {
+            position: static;
+            z-index: 15;
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding-top: 10px;
+            width: auto;
+            background: transparent;
+            border: 0;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+            }
+            .edit .slider-indicators .concat.active,
+            .slider-indicators .active {
+            background-color: #feca0a;
+            color: #00111d;
+            height: auto;
+            border-radius: 20px;
+            width: auto;
+            padding: 3px 25px;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+            }
+            li.slider-indicator:hover {
+            background-color: #feca0a;
+            color: #00111d;
+            height: auto;
+            border-radius: 20px;
+            padding: 3px 25px;
+            text-align: center;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+            }
+        /*---*/
 
-        .navbar-bottom {
-        background-color: #00111d;
-        border-bottom: 6px solid #ffcb00;
-        }
-
-        .slider-indicators li {
-        background-color: #00111d;
-        text-indent: 0;
-        cursor: pointer;
-        width: auto;
-        height: auto;
-        padding: 3px 20px;
-        color: #ffcb00;
-        text-align: center;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        transition: all 0.5s;
-        }
-
-        .slider-indicators {
-        position: static;
-        z-index: 15;
-        list-style: none;
-        text-align: center;
-        margin: 0;
-        padding-top: 10px;
-        width: auto;
-        background: transparent;
-        border: 0;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        transition: all 0.5s;
-        }
-
-        .edit .slider-indicators .concat.active,
-        .slider-indicators .active {
-        background-color: #feca0a;
-        color: #00111d;
-        height: auto;
-        border-radius: 20px;
-        width: auto;
-        padding: 3px 25px;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        transition: all 0.5s;
-        }
-
-        li.slider-indicator:hover {
-        background-color: #feca0a;
-        color: #00111d;
-        height: auto;
-        border-radius: 20px;
-        padding: 3px 25px;
-        text-align: center;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        transition: all 0.5s;
-        }
-
-
+        /*------------------*/    
         /*NAV-BAR SUPERIOR*/
-        .libro-left ul li .title:before {
-        content: "";
-        background-size: contain;
-        top: 6px;
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155174636/activity_other_imported/Logo17_BarcanovaEditorial_100Blanc_trans.png) !important;
-        position: fixed;
-        width: 126px;
-        height: 62px;
-        background-repeat: no-repeat;
-        left: 50%;
-        margin-left: -40px;
-        }
+        /*------------------*/
+            .libro-left ul li .title:before {
+            content: "";
+            background-size: contain;
+            top: 6px;
+            background-image: url(https://www.blinklearning.com/useruploads/r/a/155174636/activity_other_imported/Logo17_BarcanovaEditorial_100Blanc_trans.png) !important;
+            position: fixed;
+            width: 126px;
+            height: 62px;
+            background-repeat: no-repeat;
+            left: 50%;
+            margin-left: -40px;
+            }
+        /*-----*/
 
         /*CAMBIOS EN EL ESTILO ABP*/
-        .abp-resources-list-item-text-aux-2 .abp-activity-pages {
+        /*.abp-resources-list-item-text-aux-2 .abp-activity-pages {
         display: none;
         }
 
@@ -1061,71 +1048,90 @@ body #book-index #indice .col-main {
         .abp-button-icon.abp-button-lock .abp-icon {
         display: none;
         }
+        */
 
+        /**/
 
+        /*------------------*/
         /*Cambios en los iconos*/
+        /*--------------------*/
 
-
-        /*Iconos desplegables*/
-        #book-index #indice .unit-content .material .item .imagen:before {
-        width: 65px;
-        height: 65px;
-        background-image: none;
-        background-color: #223c3f;
-        }
-        .abp-resources-list_2 .abp-resources-list-item-image-inner {
-        background: #223c3f;
-        }
-        .abp-resources-list_2 .abp-resources-list-item-image::after {
-        background: #ededed;
-        }
-        .abp-resources-list_2 .abp-resources-list-item-image::before {
-        border: 4px solid #ededed;
-        }
-        .navbar .recursos ul li div .imagen img {
-        visibility: hidden;
-        }
-        .navbar .recursos ul li div .imagen:after {
-        background: black;
-        border-radius: 100%;
-        height: 100px;
-        }
-
-
+            /*Iconos desplegables*/
+            body #book-index #indice .col-main .unit-content .content .material .item .imagen.video:before,
+             body #book-index #indice .col-main .unit-content .content .material .item .imagen.musica:before {
+             width: 65px;
+             height: 65px;
+             background-image: none;
+             background-color: #223c3f;
+            }
+            body #book-index #indice .col-main .unit-content .content .material .item .imagen.libro:before {
+            width: 65px;
+            height: 65px;
+            background-image: none;
+            background-color: #223c3f;   
+            }
+            
+            #book-index #indice .unit-content .material .item .imagen:before {
+            width: 65px;
+            height: 65px;
+            background-image: none;
+            background-color: #223c3f;
+            }
+            .abp-resources-list_2 .abp-resources-list-item-image-inner {
+            background: #223c3f;
+            }
+            .abp-resources-list_2 .abp-resources-list-item-image::after {
+            background: #ededed;
+            }
+            .abp-resources-list_2 .abp-resources-list-item-image::before {
+            border: 4px solid #ededed;
+            }
+            .navbar .recursos ul li div .imagen img {
+            visibility: hidden;
+            }
+            .navbar .recursos ul li div .imagen:after {
+            background: black;
+            border-radius: 100%;
+            height: 100px;
+            }
+        /**---*/    
+        /*------------------------------*    
         /*IMAGEN DE FONDO DE CADA SLIDE - CAMBIAR PARA CADA LIBRO*/
-        #actividad .carousel-inner .item-container {
-        background: #ffff;
-        box-shadow: none;
-        padding: 100px 40px 0px 40px !important;
-        margin-bottom: 100px;
-        }
+        /*-------------------------------*/ 
+            #actividad .carousel-inner .item-container {
+            background: #ffff;
+            box-shadow: none;
+            padding: 100px 40px 0px 40px !important;
+            margin-bottom: 100px;
+            }
 
-        #actividad .carousel-inner .item-container:before {
-        content: "";
-        position: absolute;
-        top: 24px;
-        left: 0;
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154755326/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
-        padding: 0% 61% 6% 3%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        }
+            #actividad .carousel-inner .item-container:before {
+            content: "";
+            position: absolute;
+            top: 24px;
+            left: 0;
+            background-image: url(https://www.blinklearning.com/useruploads/r/a/154755326/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
+            padding: 0% 61% 6% 3%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
 
-        #actividad .carousel-inner .item-container:after {
-        content: "";
-        position: absolute;
-        right: 0;
-        top: 33px;
-        background-image: url(www.blinklearning.com/useruploads/r/a/155174616/activity_other_imported/Boto17_BarcanovaEditorial_Color_trans.png);
-        padding: 4% 0% 0% 12%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        }
+            #actividad .carousel-inner .item-container:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 33px;
+            background-image: url(www.blinklearning.com/useruploads/r/a/155174616/activity_other_imported/Boto17_BarcanovaEditorial_Color_trans.png);
+            padding: 4% 0% 0% 12%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            }
+        /**----***/    
 
-
+        /*--------------------------------*/
         /*CAMBIOS COLOR PRIMERA Y SEGUNDA PANTALLA*/
-
-        .abp-unit-header {
+        /*---------------------------------*/      
+        #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #FDCF00;
         background: -moz-linear-gradient(0% 50% 0deg, #FDCF00 0%, #cea905 99.84%);
         background: -webkit-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
@@ -1134,16 +1140,13 @@ body #book-index #indice .col-main {
         background: -ms-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
         background: linear-gradient(90deg, #FDCF00 0%, #cea905 99.84%);
         }
-
-        .abp-unit-header::before {
-        border-top: 15px solid #d5af04;
+        #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #FDCF00 calc(-100% - 52px), #cea905 calc(100% + 12px));        
         }
-
-        .abp-navigation_secondary ul li {
+        #layout-container #main-screen #course-header .course-extra ul li {
         border-left: 10px solid #facd00;
         }
-
-        .abp-section_unit-inner .abp-section-header-top {
+        #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #FDCF00;
         background: -moz-linear-gradient(0% 50% 0deg, #FDCF00 0%, #cea905 99.84%);
         background: -webkit-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
@@ -1152,11 +1155,9 @@ body #book-index #indice .col-main {
         background: -ms-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
         background: linear-gradient(90deg, #FDCF00 0%, #cea905 99.84%);
         }
-
-        .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #cea905;
+        #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #cea905;
         }
-
         .abp-resources-list-item-text::before {
         background: #FDCF00;
         background: -moz-linear-gradient(0% 50% 0deg, #FDCF00 0%, #cea905 99.84%);
@@ -1166,23 +1167,19 @@ body #book-index #indice .col-main {
         background: -ms-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
         background: linear-gradient(90deg, #FDCF00 0%, #cea905 99.84%);
         }
-
         .link:focus,
         .link:active,
         .link:hover {
         color: #facc00;
         }
-
         a:hover,
         a:active,
         a:focus {
         color: #ae8e00;
         }
-
         .abp-resources-list-item-inner:hover .abp-resources-list-item-text {
         background: #fff3bb;
         }
-
         .abp-resources-list-item-image::before {
         content: '';
         position: absolute;
@@ -3131,7 +3128,7 @@ body #book-index #indice .col-main {
 
         /* Primera y segunda pantalla con tags*/
 
-        .coursetag_abpmatesbarcanova .abp-unit-header {
+        .coursetag_abpmatesbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #0aabdd;
         background: -moz-linear-gradient(0% 50% 0deg, #0aabdd 0%, #0b81a6 99.84%);
         background: -webkit-linear-gradient(0deg, #0aabdd 0%, #0b81a6 99.84%);
@@ -3141,15 +3138,15 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #0aabdd 0%, #0b81a6 99.84%);
         }
 
-        .coursetag_abpmatesbarcanova .abp-unit-header::before {
-        border-top: 15px solid #0b87af;
+        .coursetag_abpmatesbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #0aabdd calc(-100% - 52px), #0b81a6 calc(100% + 12px));
         }
 
-        .coursetag_abpmatesbarcanova .abp-navigation_secondary ul li {
+        .coursetag_abpmatesbarcanova #layout-container #main-screen #course-header .course-extra ul li {
         border-left-color: #0aabdd;
         }
 
-        .coursetag_abpmatesbarcanova .abp-section_unit-inner .abp-section-header-top {
+        .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #0aabdd;
         background: -moz-linear-gradient(0% 50% 0deg, #0aabdd 0%, #0b81a6 99.84%);
         background: -webkit-linear-gradient(0deg, #0aabdd 0%, #0b81a6 99.84%);
@@ -3159,8 +3156,8 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #0aabdd 0%, #0b81a6 99.84%);
         }
 
-        .coursetag_abpmatesbarcanova .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #0b81a6;
+        .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #0b81a6;
         }
 
         .coursetag_abpmatesbarcanova .abp-resources-list-item-text::before {
@@ -3712,7 +3709,7 @@ body #book-index #indice .col-main {
 
         /* Primera y segunda pantalla con tags*/
 
-        .coursetag_abplenguajebarcanova .abp-unit-header {
+        .coursetag_abplenguajebarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #D2204F;
         background: -moz-linear-gradient(0% 50% 0deg, #D2204F 0%, #ad133c 99.84%);
         background: -webkit-linear-gradient(0deg, #D2204F 0%, #ad133c 99.84%);
@@ -3722,15 +3719,15 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #D2204F 0%, #ad133c 99.84%);
         }
 
-        .coursetag_abplenguajebarcanova .abp-unit-header::before {
-        border-top: 15px solid #D2204F;
+        .coursetag_abplenguajebarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #D2204F calc(-100% - 52px), #ad133c calc(100% + 12px));
         }
 
-        .coursetag_abplenguajebarcanova .abp-navigation_secondary ul li {
+        .coursetag_abplenguajebarcanova #layout-container #main-screen #course-header .course-extra ul li {
         border-left-color: #D2204F;
         }
 
-        .coursetag_abplenguajebarcanova .abp-section_unit-inner .abp-section-header-top {
+        .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #D2204F;
         background: -moz-linear-gradient(0% 50% 0deg, #D2204F 0%, #ad133c 99.84%);
         background: -webkit-linear-gradient(0deg, #D2204F 0%, #ad133c 99.84%);
@@ -3740,8 +3737,8 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #D2204F 0%, #ad133c 99.84%);
         }
 
-        .coursetag_abplenguajebarcanova .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #ad133c;
+        .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #ad133c;
         }
 
         .coursetag_abplenguajebarcanova .abp-resources-list-item-text::before {
@@ -3992,7 +3989,7 @@ body #book-index #indice .col-main {
 
         /* Primera y segunda pantalla con tags*/
 
-        .coursetag_abpbiologiabarcanova .abp-unit-header {
+        .coursetag_abpbiologiabarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #75B042;
         background: -moz-linear-gradient(0% 50% 0deg, #75B042 0%, #589e1b 99.84%);
         background: -webkit-linear-gradient(0deg, #75B042 0%, #589e1b 99.84%);
@@ -4002,15 +3999,15 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #75B042 0%, #589e1b 99.84%);
         }
 
-        .coursetag_abpbiologiabarcanova .abp-unit-header::before {
-        border-top: 15px solid #75B042;
+        .coursetag_abpbiologiabarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #75B042 calc(-100% - 52px), #589e1b calc(100% + 12px));
         }
 
-        .coursetag_abpbiologiabarcanova .abp-navigation_secondary ul li {
+        .coursetag_abpbiologiabarcanova #layout-container #main-screen #course-header .course-extra ul li {
         border-left-color: #75B042;
         }
 
-        .coursetag_abpbiologiabarcanova .abp-section_unit-inner .abp-section-header-top {
+        .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #75B042;
         background: -moz-linear-gradient(0% 50% 0deg, #75B042 0%, #589e1b 99.84%);
         background: -webkit-linear-gradient(0deg, #75B042 0%, #589e1b 99.84%);
@@ -4020,8 +4017,8 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #75B042 0%, #589e1b 99.84%);
         }
 
-        .coursetag_abpbiologiabarcanova .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #589e1b;
+        .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #589e1b;
         }
 
         .coursetag_abpbiologiabarcanova .abp-resources-list-item-text::before {
@@ -4269,7 +4266,7 @@ body #book-index #indice .col-main {
 
         /* Primera y segunda pantalla con tags*/
 
-        .coursetag_abpsocialesbarcanova .abp-unit-header {
+        .coursetag_abpsocialesbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #F07F3C;
         background: -moz-linear-gradient(0% 50% 0deg, #F07F3C 0%, #bf5719 99.84%);
         background: -webkit-linear-gradient(0deg, #F07F3C 0%, #bf5719 99.84%);
@@ -4279,15 +4276,15 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #F07F3C 0%, #bf5719 99.84%);
         }
 
-        .coursetag_abpsocialesbarcanova .abp-unit-header::before {
-        border-top: 15px solid #F07F3C;
+        .coursetag_abpsocialesbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #F07F3C calc(-100% - 52px), #bf5719 calc(100% + 12px));
         }
 
-        .coursetag_abpsocialesbarcanova .abp-navigation_secondary ul li {
+        .coursetag_abpsocialesbarcanova #layout-container #main-screen #course-header .course-extra ul li {
         border-left-color: #F07F3C;
         }
 
-        .coursetag_abpsocialesbarcanova .abp-section_unit-inner .abp-section-header-top {
+        .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #F07F3C;
         background: -moz-linear-gradient(0% 50% 0deg, #F07F3C 0%, #bf5719 99.84%);
         background: -webkit-linear-gradient(0deg, #F07F3C 0%, #bf5719 99.84%);
@@ -4297,8 +4294,8 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #F07F3C 0%, #bf5719 99.84%);
         }
 
-        .coursetag_abpsocialesbarcanova .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #bf5719;
+        .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #bf5719;
         }
 
         .coursetag_abpsocialesbarcanova .abp-resources-list-item-text::before {
@@ -4550,7 +4547,7 @@ body #book-index #indice .col-main {
 
         /* Primera y segunda pantalla con tags*/
 
-        .coursetag_abpmarronbarcanova .abp-unit-header {
+        .coursetag_abpmarronbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #B86048;
         background: -moz-linear-gradient(0% 50% 0deg, #B86048 0%, #86341d 99.84%);
         background: -webkit-linear-gradient(0deg, #B86048 0%, #86341d 99.84%);
@@ -4560,15 +4557,15 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #B86048 0%, #86341d 99.84%);
         }
 
-        .coursetag_abpmarronbarcanova .abp-unit-header::before {
-        border-top: 15px solid #8d3b23;
+        .coursetag_abpmarronbarcanova #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title::before {
+            background-image: linear-gradient(45deg, #B86048 calc(-100% - 52px), #86341d calc(100% + 12px));
         }
 
-        .coursetag_abpmarronbarcanova .abp-navigation_secondary ul li {
+        .coursetag_abpmarronbarcanova #layout-container #main-screen #course-header .course-extra ul li {
         border-left-color: #B86048;
         }
 
-        .coursetag_abpmarronbarcanova .abp-section_unit-inner .abp-section-header-top {
+        .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title{
         background: #B86048;
         background: -moz-linear-gradient(0% 50% 0deg, #B86048 0%, #86341d 99.84%);
         background: -webkit-linear-gradient(0deg, #B86048 0%, #86341d 99.84%);
@@ -4578,8 +4575,8 @@ body #book-index #indice .col-main {
         background: linear-gradient(90deg, #B86048 0%, #86341d 99.84%);
         }
 
-        .coursetag_abpmarronbarcanova .abp-section_unit-inner .abp-section-header-top::before {
-        border-left: 20px solid #86341d;
+        .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-data .section-title:before {
+        background: #86341d;
         }
 
         .coursetag_abpmarronbarcanova .abp-resources-list-item-text::before {
