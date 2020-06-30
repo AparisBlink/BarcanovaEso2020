@@ -994,8 +994,8 @@ body #book-index #indice .col-main {
             -moz-transition: all 0.5s;
             transition: all 0.5s;
             }
-            .edit .slider-indicators .concat.active,
-            .slider-indicators .active {
+            .navbar-bottom .edit .slider-indicators .concat.active,
+            .navbar-bottom .slider-indicators .active {
             background-color: #feca0a;
             color: #00111d;
             height: auto;
@@ -1171,7 +1171,8 @@ body #book-index #indice .col-main {
         }
         @media (hover: hover) {
         .go-back button:hover,
-         #layout-container div.go-back button:hover {
+         #layout-container div.go-back button:hover,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
         color: #facc00;
         }
         
@@ -1303,7 +1304,12 @@ body #book-index #indice .col-main {
         /*-------------------------------------------------------------------------------------------------------------*/
         /* -----------------------------------------ESTILOS CK-EDITOR--------------------------------------------------*/
         /*-------------------------------------------------------------------------------------------------------------*/
-
+        
+        /* Titulo de la slide*/
+        #actividad .content .header .title {
+          display: none;
+        }
+        
         /*Titulo principal - Bck-title1 - Tiene cambio a naranja cuando cambia la sección*/
         .bck-title1:before {
         content: "»";
@@ -2364,7 +2370,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /* Despleagable*/
+        /* Desplegable*/
 
         .bck-dropdown {
         margin-bottom: 20px;
@@ -2389,9 +2395,21 @@ body #book-index #indice .col-main {
         border: 2px solid white;
         border-top: 0;
         }
+        .bck-dropdown-icon>.fa {
+          border: 0;
+      }
 
 
-        /*Flipbox*/
+      /*Flipbox*/
+
+        body:not(.edit) .front .bck-flipbox-title,
+         body:not(.edit) .front .bck-flipbox-section {
+          color: white;
+        }
+       body:not(.edit) .bck-flipbox-face.back {
+        border: #223c3f 1px solid;
+        background-color: #223c3f;
+        }
 
         body:not(.edit) .bck-flipbox-face.front {
         border: #223c3f 0px solid;
@@ -2410,7 +2428,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Tablas*/
+      /*Tablas*/
 
         table td,
         th {
@@ -2446,7 +2464,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Tabla 2*/
+      /*Tabla 2*/
 
         .bck-table-2 {
         table-layout: fixed;
@@ -2468,7 +2486,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Tabla 3*/
+      /*Tabla 3*/
 
         .bck-table-3 {
         table-layout: fixed;
@@ -2488,7 +2506,7 @@ body #book-index #indice .col-main {
         background: #B8CAEA;
         }
 
-        /*Tabla 4*/
+      /*Tabla 4*/
 
         .bck-table-4 {
         table-layout: fixed;
@@ -2508,7 +2526,7 @@ body #book-index #indice .col-main {
         background: #F9FBF0;
         }
 
-        /*Tabla 5*/
+      /*Tabla 5*/
 
         .bck-table-5 {
         table-layout: fixed;
@@ -2529,7 +2547,7 @@ body #book-index #indice .col-main {
         background: #EEF2FA;
         }
 
-        /*Tabla 6*/
+      /*Tabla 6*/
 
         .bck-table-6 {
         table-layout: fixed;
@@ -2552,10 +2570,10 @@ body #book-index #indice .col-main {
 
 
 
-        /*-----ACTIVIDADES-----------*/
+      /*-----ACTIVIDADES-----------*/
 
 
-        /*Plantilla de texto a imagen*/
+      /*Plantilla de texto a imagen*/
 
         .slide_main .fillblankimages-draggable .img-input-container {
         height: 30px;
@@ -3114,8 +3132,8 @@ body #book-index #indice .col-main {
         color: white;
         }
 
-        .coursetag_abpmatesbarcanova .edit .slider-indicators .concat.active,
-        .coursetag_abpmatesbarcanova .slider-indicators .active {
+        .coursetag_abpmatesbarcanova .navbar-bottom .edit .slider-indicators .concat.active,
+        .coursetag_abpmatesbarcanova .navbar-bottom .slider-indicators .active {
         background-color: #0aabdd;
         color: white;
         }
@@ -3150,7 +3168,8 @@ body #book-index #indice .col-main {
 
         @media (hover: hover) {
         .coursetag_abpmatesbarcanova .go-back button:hover,
-        .coursetag_abpmatesbarcanova #layout-container div.go-back button:hover {
+        .coursetag_abpmatesbarcanova #layout-container div.go-back button:hover,
+        .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
           color: #0aabdd;
         }
       }
@@ -3158,12 +3177,13 @@ body #book-index #indice .col-main {
 
         /*Menu desplegable con coursetag abpmatesbarcanova*/
 
-        .coursetag_abpmatesbarcanova body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpmatesbarcanova body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body:not(.isTablet).coursetag_abpmatesbarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
+        body:not(.isTablet).coursetag_abpmatesbarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, 
+        body.coursetag_abpmatesbarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #0aabdd;
         }
 
-        .coursetag_abpmatesbarcanova body #book-index #indice .col-main {
+        body.coursetag_abpmatesbarcanova #book-index #indice .col-main {
         background: #0aabdd;
         }
 
@@ -3690,8 +3710,8 @@ body #book-index #indice .col-main {
         color: white;
         }
 
-        .coursetag_abplenguajebarcanova .edit .slider-indicators .concat.active,
-        .coursetag_abplenguajebarcanova .slider-indicators .active {
+        .coursetag_abplenguajebarcanova .navbar-bottom .edit .slider-indicators .concat.active,
+        .coursetag_abplenguajebarcanova .navbar-bottom .slider-indicators .active {
         background-color: #D2204F;
         color: white;
         }
@@ -3726,7 +3746,8 @@ body #book-index #indice .col-main {
 
         @media (hover: hover){
           .coursetag_abplenguajebarcanova .go-back button:hover,
-          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover{
+          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover, 
+          .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
         color: #D2204F;
         }
       }
@@ -3734,12 +3755,12 @@ body #book-index #indice .col-main {
 
         /*Menu desplegable con coursetag abpmatesbarcanova*/
 
-        .coursetag_abplenguajebarcanova body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abplenguajebarcanova body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body:not(.isTablet).coursetag_abplenguajebarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
+        body:not(.isTablet).coursetag_abplenguajebarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #D2204F;
         }
 
-        .coursetag_abplenguajebarcanova body #book-index #indice .col-main {
+        body.coursetag_abplenguajebarcanova #book-index #indice .col-main {
         background: #D2204F;
         }
 
@@ -3980,8 +4001,8 @@ body #book-index #indice .col-main {
         color: white;
         }
 
-        .coursetag_abpbiologiabarcanova .edit .slider-indicators .concat.active,
-        .coursetag_abpbiologiabarcanova .slider-indicators .active {
+        .coursetag_abpbiologiabarcanova .navbar-bottom .edit .slider-indicators .concat.active,
+        .coursetag_abpbiologiabarcanova .navbar-bottom .slider-indicators .active {
         background-color: #75B042;
         color: white;
         }
@@ -4016,7 +4037,8 @@ body #book-index #indice .col-main {
 
         @media (hover: hover){
           .coursetag_abplenguajebarcanova .go-back button:hover,
-          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover{
+          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover,
+          .coursetag_abplenguajebarcanova#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
         color: #75B042;
         }
       }
@@ -4024,12 +4046,12 @@ body #book-index #indice .col-main {
 
         /*Menu desplegable con coursetag abpbiologiabarcanova*/
 
-        .coursetag_abpbiologiabarcanova body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpbiologiabarcanova body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body:not(.isTablet).coursetag_abpbiologiabarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
+        body:not(.isTablet).coursetag_abpbiologiabarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #75B042;
         }
 
-        .coursetag_abpbiologiabarcanova body #book-index #indice .col-main {
+        body.coursetag_abpbiologiabarcanova #book-index #indice .col-main {
         background: #75B042;
         }
 
@@ -4259,8 +4281,8 @@ body #book-index #indice .col-main {
         color: white;
         }
 
-        .coursetag_abpsocialesbarcanova .edit .slider-indicators .concat.active,
-        .coursetag_abpsocialesbarcanova .slider-indicators .active {
+        .coursetag_abpsocialesbarcanova .navbar-bottom .edit .slider-indicators .concat.active,
+        .coursetag_abpsocialesbarcanova .navbar-bottom .slider-indicators .active {
         background-color: #F07F3C;
         color: white;
         }
@@ -4295,20 +4317,21 @@ body #book-index #indice .col-main {
 
         @media (hover: hover) {
           .coursetag_abpsocialesbarcanova .go-back button:hover,
-          .coursetag_abpsocialesbarcanova #layout-container div.go-back button:hover {
+          .coursetag_abpsocialesbarcanova #layout-container div.go-back button:hover,
+          .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
         color: #F07F3C;
         }
       }
 
 
-        /*Menu desplegable con coursetag abpbiologiabarcanova*/
+        /*Menu desplegable con coursetag abpsocialesbarcanova*/
 
-        .coursetag_abpsocialesbarcanova body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpsocialesbarcanova body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body:not(.isTablet).coursetag_abpsocialesbarcanova  #book-index #indice .units ul li:not(.disabled) a:hover,
+        body:not(.isTablet).coursetag_abpsocialesbarcanova  #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #F07F3C;
         }
 
-        .coursetag_abpsocialesbarcanova body #book-index #indice .col-main {
+        body.coursetag_abpsocialesbarcanova  #book-index #indice .col-main {
         background: #F07F3C;
         }
 
@@ -4542,8 +4565,8 @@ body #book-index #indice .col-main {
         color: white;
         }
 
-        .coursetag_abpmarronbarcanova .edit .slider-indicators .concat.active,
-        .coursetag_abpmarronbarcanova .slider-indicators .active {
+        .coursetag_abpmarronbarcanova .navbar-bottom .edit .slider-indicators .concat.active,
+        .coursetag_abpmarronbarcanova .navbar-bottom .slider-indicators .active {
         background-color: #B86048;
         color: white;
         }
@@ -4578,8 +4601,8 @@ body #book-index #indice .col-main {
 
         @media (hover: hover) {
           .coursetag_abpmarronbarcanova .go-back button:hover,
-          .coursetag_abpmarronbarcanova #layout-container div.go-back button:hover {
-
+          .coursetag_abpmarronbarcanova #layout-container div.go-back button:hover,
+          .coursetag_abpmarronbarcanova#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
         color: #B86048;
         }
       }
@@ -4587,12 +4610,12 @@ body #book-index #indice .col-main {
 
         /*Menu desplegable con coursetag abpbiologiabarcanova*/
 
-        .coursetag_abpmarronbarcanova body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpmarronbarcanova body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body:not(.isTablet).coursetag_abpmarronbarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
+        body:not(.isTablet).coursetag_abpmarronbarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #B86048;
         }
 
-        .coursetag_abpmarronbarcanova body #book-index #indice .col-main {
+        body.coursetag_abpmarronbarcanova #book-index #indice .col-main {
         background: #B86048;
         }
 
