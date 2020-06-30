@@ -1229,7 +1229,7 @@ body #book-index #indice .col-main {
         word-break: break-word;
         }
 
-        .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        #layout-container *::-webkit-scrollbar-thumb {
         background-color: #cea905;
         }
 
@@ -3261,7 +3261,7 @@ body #book-index #indice .col-main {
         background-color: #0aabdd;
         }
 
-        .coursetag_abpmatesbarcanova .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        .coursetag_abpmatesbarcanova #layout-container *::-webkit-scrollbar-thumb {
         background-color: #0b81a6;
         }
 
@@ -3846,7 +3846,7 @@ body #book-index #indice .col-main {
         background-color: #D2204F;
         }
 
-        .coursetag_abplenguajebarcanova .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        .coursetag_abplenguajebarcanova #layout-container *::-webkit-scrollbar-thumb {
         background-color: #ad133c;
         }
 
@@ -4129,7 +4129,7 @@ body #book-index #indice .col-main {
         background-color: #75B042;
         }
 
-        .coursetag_abpbiologiabarcanova .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        .coursetag_abpbiologiabarcanova #layout-container *::-webkit-scrollbar-thumb {
         background-color: #589e1b;
         }
 
@@ -4409,7 +4409,7 @@ body #book-index #indice .col-main {
         background-color: #F07F3C;
         }
 
-        .coursetag_abpsocialesbarcanova .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        .coursetag_abpsocialesbarcanova #layout-container *::-webkit-scrollbar-thumb {
         background-color: #bf5719;
         }
 
@@ -4693,7 +4693,7 @@ body #book-index #indice .col-main {
         background-color: #B86048;
         }
 
-        .coursetag_abpmarronbarcanova .abp-section_unit-inner .abp-section-content .abp-resources-list-wrapper::-webkit-scrollbar-thumb {
+        .coursetag_abpmarronbarcanova #layout-container *::-webkit-scrollbar-thumb {
         background-color: #86341d;
         }
 
