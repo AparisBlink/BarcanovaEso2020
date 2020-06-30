@@ -1309,6 +1309,9 @@ body #book-index #indice .col-main {
         #actividad .content .header .title {
           display: none;
         }
+        #actividad .content .header.empty {
+          display: none;   
+        }
         
         /*Titulo principal - Bck-title1 - Tiene cambio a naranja cuando cambia la sección*/
         .bck-title1:before {
