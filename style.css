@@ -1169,16 +1169,18 @@ body #book-index #indice .col-main {
         background: -ms-linear-gradient(0deg, #FDCF00 0%, #cea905 99.84%);
         background: linear-gradient(90deg, #FDCF00 0%, #cea905 99.84%);
         }
-        .link:focus,
-        .link:active,
-        .link:hover {
+        @media (hover: hover) {
+        .go-back button:hover,
+         #layout-container div.go-back button:hover {
         color: #facc00;
         }
+        
         a:hover,
         a:active,
         a:focus {
         color: #ae8e00;
         }
+      }
 
         @media (hover: hover) {
           #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover,
@@ -1252,6 +1254,53 @@ body #book-index #indice .col-main {
         .navbar.libro .popover.bottom>.arrow:after {
             border-bottom-color: #071822;
         }
+
+        /* ICONOS CONTENIDO UNIDAD*/
+        #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img {
+          background-color: black;
+          background-size: contain;
+         }
+
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-8.img,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-8.img {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-img.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.actividad {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-actividad.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-2.video,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-2.video {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-video.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-3.musica,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-3.musica {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-musica.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-5.archivo,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-5.archivo {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-archivo.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.libro,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.libro {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-libro.png) !important;
+         }
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-7.url,
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-7.url {
+          background-image: url(/themes/responsive/images/contenido/recurso-icon-url.png) !important;
+         }
+
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer,
+          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-outer {
+            background: white;
+         }
+
+         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-inner,
+          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-inner{
+            background-color: white;
+         }
+
+         
 
         /*-------------------------------------------------------------------------------------------------------------*/
         /* -----------------------------------------ESTILOS CK-EDITOR--------------------------------------------------*/
@@ -3101,11 +3150,12 @@ body #book-index #indice .col-main {
 
         /*Link con abpmatesbarcanova*/
 
-        .coursetag_abpmatesbarcanova .link:focus,
-        .coursetag_abpmatesbarcanova .link:active,
-        .coursetag_abpmatesbarcanova .link:hover {
-        color: #0aabdd;
+        @media (hover: hover) {
+        .coursetag_abpmatesbarcanova .go-back button:hover,
+        .coursetag_abpmatesbarcanova #layout-container div.go-back button:hover {
+          color: #0aabdd;
         }
+      }
 
 
         /*Menu desplegable con coursetag abpmatesbarcanova*/
@@ -3187,8 +3237,8 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img,
-         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
-          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
+        .coursetag_abpmatesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
         background: #0aabdd;
         background: -moz-linear-gradient(0% 50% 0deg, #0aabdd 0%, #0b81a6 99.84%);
         background: -webkit-linear-gradient(0deg, #0aabdd 0%, #0b81a6 99.84%);
@@ -3684,11 +3734,12 @@ body #book-index #indice .col-main {
 
         /*Link con abpmatesbarcanova*/
 
-        .coursetag_abplenguajebarcanova .link:focus,
-        .coursetag_abplenguajebarcanova .link:active,
-        .coursetag_abplenguajebarcanova .link:hover {
+        @media (hover: hover){
+          .coursetag_abplenguajebarcanova .go-back button:hover,
+          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover{
         color: #D2204F;
         }
+      }
 
 
         /*Menu desplegable con coursetag abpmatesbarcanova*/
@@ -3778,8 +3829,8 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img,
-         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
-          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
+        .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
         background: #D2204F;
         background: -moz-linear-gradient(0% 50% 0deg, #D2204F 0%, #ad133c 99.84%);
         background: -webkit-linear-gradient(0deg, #D2204F 0%, #ad133c 99.84%);
@@ -3981,11 +4032,12 @@ body #book-index #indice .col-main {
 
         /*Link con abpbiologiabarcanova*/
 
-        .coursetag_abpbiologiabarcanova .link:focus,
-        .coursetag_abpbiologiabarcanova .link:active,
-        .coursetag_abpbiologiabarcanova .link:hover {
+        @media (hover: hover){
+          .coursetag_abplenguajebarcanova .go-back button:hover,
+          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover{
         color: #75B042;
         }
+      }
 
 
         /*Menu desplegable con coursetag abpbiologiabarcanova*/
@@ -4067,8 +4119,8 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img,
-         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
-          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
+        .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
         background: #75B042;
         background: -moz-linear-gradient(0% 50% 0deg, #75B042 0%, #589e1b 99.84%);
         background: -webkit-linear-gradient(0deg, #75B042 0%, #589e1b 99.84%);
@@ -4267,11 +4319,12 @@ body #book-index #indice .col-main {
 
         /*Link con abpbiologiabarcanova*/
 
-        .coursetag_abpsocialesbarcanova .link:focus,
-        .coursetag_abpsocialesbarcanova .link:active,
-        .coursetag_abpsocialesbarcanova .link:hover {
+        @media (hover: hover) {
+          .coursetag_abpsocialesbarcanova .go-back button:hover,
+          .coursetag_abpsocialesbarcanova #layout-container div.go-back button:hover {
         color: #F07F3C;
         }
+      }
 
 
         /*Menu desplegable con coursetag abpbiologiabarcanova*/
@@ -4353,8 +4406,8 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img,
-         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
-          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
+        .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
         background: #F07F3C;
         background: -moz-linear-gradient(0% 50% 0deg, #F07F3C 0%, #bf5719 99.84%);
         background: -webkit-linear-gradient(0deg, #F07F3C 0%, #bf5719 99.84%);
@@ -4557,11 +4610,13 @@ body #book-index #indice .col-main {
 
         /*Link con abpbiologiabarcanova*/
 
-        .coursetag_abpmarronbarcanova .link:focus,
-        .coursetag_abpmarronbarcanova .link:active,
-        .coursetag_abpmarronbarcanova .link:hover {
+        @media (hover: hover) {
+          .coursetag_abpmarronbarcanova .go-back button:hover,
+          .coursetag_abpmarronbarcanova #layout-container div.go-back button:hover {
+
         color: #B86048;
         }
+      }
 
 
         /*Menu desplegable con coursetag abpbiologiabarcanova*/
@@ -4643,8 +4698,8 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img,
-         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
-          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+        .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img,
+        .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
         background: #B86048;
         background: -moz-linear-gradient(0% 50% 0deg, #B86048 0%, #86341d 99.84%);
         background: -webkit-linear-gradient(0deg, #B86048 0%, #86341d 99.84%);
