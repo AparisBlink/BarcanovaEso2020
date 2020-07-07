@@ -883,24 +883,59 @@ body #book-index #indice .col-main {
    * CSS AÑADIDO POR HTML *
    ************************/
 
-		/*-------------FUENTES------------*/
+        /*-------------FUENTES------------*/
+        /*ROBOTO SLAB*/
+        @font-face {
+            font-family: 'Roboto Slab';
+            src: url('fonts/RobotoSlab-Regular.eot');
+            src: local('☺'),
+             url('fonts/RobotoSlab-Regular.woff') format('woff'),
+              url('fonts/RobotoSlab-Regular.ttf') format('truetype'),
+               url('fonts/RobotoSlab-Regular.svg') format('svg');
+            font-weight: 400;
+            font-style: normal;
+        }
 
-            /*ROBOTO SLAB*/
-            /* CSS: font-family: 'Roboto Slab', serif; */
-            @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,900&display=swap');
+        @font-face {
+            font-family: 'Roboto Slab';
+            src: url('fonts/RobotoSlab-Black.eot');
+            src: local('☺'), url('fonts/RobotoSlab-Black.woff') format('woff'), url('fonts/RobotoSlab-Black.ttf') format('truetype'), url('fonts/RobotoSlab-Black.svg') format('svg');
+            font-weight: 900;
+            font-style: normal;
+        }
 
-            /*PANGOLIN*/
-            /*CSS - font-family: 'Pangolin', cursive;*/
-            @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+        @font-face {
+            font-family: 'Pangolin';
+            src: url('fonts/Pangolin-Regular.eot');
+            src: local('☺'), url('fonts/Pangolin-Regular.woff') format('woff'), url('fonts/Pangolin-Regular.ttf') format('truetype'), url('fonts/Pangolin-Regular.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-            /*PT SANS NARROW*/
-            /* CSS - font-family: 'PT Sans Narrow', sans-serif; */
-            @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
+        @font-face {
+            font-family: 'PT Sans Narrow';
+            src: url('fonts/PTSansNarrow-Regular.eot');
+            src: local('☺'), url('fonts/PTSansNarrow-Regular.woff') format('woff'), url('fonts/PTSansNarrow-Regular.ttf') format('truetype'), url('fonts/PTSansNarrow-Regular.svg') format('svg');
+            font-weight: 400;
+            font-style: normal;
+        }
 
-            /*MONTSERRAT EXTRA BOLD*/
-            /*font-family: 'Montserrat', sans-serif;*/
-            @import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
-            
+        @font-face {
+            font-family: 'PT Sans Narrow';
+            src: url('fonts/PTSansNarrow-Bold.eot');
+            src: local('☺'), url('fonts/PTSansNarrow-Bold.woff') format('woff'), url('fonts/PTSansNarrow-Bold.ttf') format('truetype'), url('fonts/PTSansNarrow-Bold.svg') format('svg');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+          font-family: 'Montserrat';
+          src: url('fonts/Montserrat-ExtraBold.eot');
+          src: local('☺'), url('fonts/Montserrat-ExtraBold.woff') format('woff'), url('fonts/Montserrat-ExtraBold.ttf') format('truetype'), url('fonts/Montserrat-ExtraBold.svg') format('svg');
+          font-weight: 800;
+          font-style: normal;
+        }
+
         /*--------------*/
 
         /*------------------------------------------*/
