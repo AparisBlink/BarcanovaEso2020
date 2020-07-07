@@ -961,6 +961,10 @@ body #book-index #indice .col-main {
             .texto_curso .bck-content ul li, .workspace .bck-content ul li ul li, .cke_contents .bck-content ul li {
                 padding-left: 10px;
             }
+
+            body #actividad .carousel-inner .item-container {
+                max-width: 1200px;
+            }
         /*-------*/
         /*NAVBAR*/
             .navbar-bottom {
