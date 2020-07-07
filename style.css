@@ -1442,7 +1442,7 @@ body #book-index #indice .col-main {
             font-size: 18px;
             margin-bottom: 20px;
             margin-top: 0;
-            }
+        }
 
         /* ------------------ CAJAS ---------------*/
 
@@ -4168,6 +4168,9 @@ body #book-index #indice .col-main {
         .coursetag_abpsocialesbarcanova .bck-title8 {
         color: #F07F3C;
         border-bottom: 3px solid #F07F3C;
+        }
+        .coursetag_abpsocialesbarcanova .bck-title9 {
+            color: #F07F3C;
         }
 
 
