@@ -966,6 +966,9 @@ body #book-index #indice .col-main {
             #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-lock {
                 display: none;
             }
+            body #actividad .content .header {
+            display: none;
+            }
 
         /**/
         /*--------------------------*/
@@ -2297,7 +2300,17 @@ body #book-index #indice .col-main {
         width: 25px;
         height: 25px;
         line-height: 1.1;
+        cursor: pointer;
         }
+        body #actividad .info-button.only-teacher,
+         #actividad .info-template .info-title.only-teacher {
+            border: 0;
+            background: white;
+            color: black;
+            -moz-box-shadow: 0px 0px 0px 2px black;
+            -webkit-box-shadow: 0px 0px 0px 2px black;
+            box-shadow: 0px 0px 0px 2px black;
+         }
 
 
         /*Lista ordenada por defecto*/
