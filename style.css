@@ -1431,6 +1431,19 @@ body #book-index #indice .col-main {
         padding-bottom: 5px;
         }
 
+        
+        /*Título 7 - Título pequeño*/
+        .bck-title9 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            color: black;
+            padding: 0;
+            background: none;
+            font-size: 18px;
+            margin-bottom: 20px;
+            margin-top: 0;
+            }
+
         /* ------------------ CAJAS ---------------*/
 
 
