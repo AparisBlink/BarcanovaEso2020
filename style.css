@@ -1284,6 +1284,17 @@ body #book-index #indice .col-main {
             font-weight: 600;
         }
 
+        body #layout-container #main-screen #course-header .course-title span {
+            font-size: 26px;
+            line-height: 33px;
+            font-family: "Pt Sans Narrow";
+        }
+
+        body #layout-container .section-title-1 {
+            font-size: 40px;
+            font-weight: 800;
+        }
+
         /* DESPLEGABLE RECURSOS HTML*/
         .popover_resources_active .popover-title {
             font-family: 'Roboto Slab', serif;
