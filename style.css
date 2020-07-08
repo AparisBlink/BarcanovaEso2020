@@ -1295,6 +1295,10 @@ body #book-index #indice .col-main {
             font-weight: 800;
         }
 
+        body #layout-container #main-screen #course-header div {
+            justify-content: center;
+        }
+
         /* DESPLEGABLE RECURSOS HTML*/
         .popover_resources_active .popover-title {
             font-family: 'Roboto Slab', serif;
