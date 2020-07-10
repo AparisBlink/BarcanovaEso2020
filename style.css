@@ -1059,6 +1059,9 @@ body #book-index #indice .col-main {
             -moz-transition: all 0.5s;
             transition: all 0.5s;
             }
+            body.edit .slider-indicators .concat {
+                color: white;
+            }
         /*---*/
 
         /*------------------*/    
