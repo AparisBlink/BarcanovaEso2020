@@ -609,7 +609,7 @@ body #book-index #indice .col-main {
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item {
                 flex: unset;
                 flex-direction: row; }
-              #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
+              #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .separator,
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .separator {
                 color: #ffffff;
@@ -1285,9 +1285,9 @@ body #book-index #indice .col-main {
         }
 
         body #layout-container #main-screen #course-header .course-title span {
-            font-size: 26px;
-            line-height: 33px;
-            font-family: "Pt Sans Narrow";
+          font-size: 22px;
+          line-height: 29px;
+          font-family: "Pt Sans Narrow";
         }
 
         body #layout-container .section-title-1 {
@@ -1297,6 +1297,22 @@ body #book-index #indice .col-main {
 
         body #layout-container #main-screen #course-header div {
             justify-content: center;
+        }
+        body #layout-container #main-screen #course-header .course-title {
+          justify-content: center;
+        }
+        body #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
+          font-family: "Pt Sans Narrow";
+          font-weight: 600;
+        }
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .separator,
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .separator {
+          font-weight: 700;
+        }
+        body #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
+          font-family: "Pt Sans Narrow";
+          font-weight: 600;
         }
 
         /* DESPLEGABLE RECURSOS HTML*/
