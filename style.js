@@ -109,7 +109,7 @@
     { name: 'Título 06 Subrayado', element: 'h4', attributes: { 'class': 'bck-title bck-title8'} },
     { name: 'Título 07 Titulo pequeño', element: 'h4', attributes: { 'class': 'bck-title bck-title9'} },
 
-    { name: 'Énfasis 01 Fondo color', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+    { name: 'Énfasis 01 Fondo color', element: 'span', attributes: { 'class': 'bck-enfasis'} },
     { name: 'Énfasis 02 Tipografía PT Sans Narrow', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
     { name: 'Énfasis 03 Tipografía Pangolin', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
     { name: 'Énfasis 04 Tipografía Roboto Slab', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
