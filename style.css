@@ -2749,13 +2749,6 @@ body #book-index #indice .col-main {
         background-image: url(https://www.blinklearning.com/useruploads/r/a/154941436/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceranaranja.png) !important;
         }
 
-        #actividad .content .naranja .cke_contents ol li::before,
-        #actividad .content .naranja .texto_curso ol li::before,
-        #actividad .naranja .popover-content ol li::before,
-        #actividad .content .naranja .workspace ul li ol li::before {
-        color: #F7931D !important;
-        }
-
         #actividad .content .naranja .cke_contents ul li::before,
         #actividad .content .naranja .texto_curso ul li::before,
         #actividad .naranja .popover-content ul li::before,
@@ -2767,6 +2760,13 @@ body #book-index #indice .col-main {
         #actividad .content .naranja .texto_curso .bck-ul-2 li:before,
         #actividad .content .naranja .workspace ul li .bck-ul-2 li:before {
         background: white !important;
+        }
+
+        #actividad .content .naranja .cke_contents ol li::before,
+        #actividad .content .naranja .texto_curso ol li::before,
+        #actividad .naranja .popover-content ol li::before,
+        #actividad .content .naranja .workspace ul li ol li::before {
+        color: #F7931D !important;
         }
 
         #actividad .content .naranja .cke_contents .bck-ol-4 li:before,
@@ -2930,6 +2930,18 @@ body #book-index #indice .col-main {
         #actividad .content .dorado .texto_curso .bck-ol li:before,
         #actividad .content .dorado .workspace ul li .bck-ol li:before {
         color: #E7AB00 !important;
+        }
+
+        .dorado .cke_contents .bck-ul-2 li:before,
+        .dorado .texto_curso .bck-ul-2 li:before,
+        .dorado .workspace ul li .bck-ul-2 li:before {
+        background: white !important;
+        }
+
+        #actividad .content .dorado .cke_contents .bck-ol-4 li:before,
+        #actividad .content .dorado .texto_curso .bck-ol-4 li:before,
+        #actividad .content .dorado .workspace ul li .bck-ol-4 li:before {
+        color: white !important;
         }
 
 
