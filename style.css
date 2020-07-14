@@ -4824,9 +4824,9 @@ body #book-index #indice .col-main {
         }
 
         @media (hover: hover) {
-          .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover,
-          .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover,
-          .coursetag_abpsocialesbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
+          .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover,
+          .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover,
+          .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
           color: #B86048;
           background: #EED7CC;
         }
