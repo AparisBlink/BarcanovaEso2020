@@ -1071,7 +1071,7 @@ body #book-index #indice .col-main {
             content: "";
             background-size: contain;
             top: 6px;
-            background-image: url(https://www.blinklearning.com/useruploads/r/a/155174636/activity_other_imported/Logo17_BarcanovaEditorial_100Blanc_trans.png) !important;
+            background-image: url(images/Logo17_BarcanovaEditorial_100Blanc_trans_copia.png) !important;
             position: fixed;
             width: 126px;
             height: 62px;
@@ -1155,7 +1155,7 @@ body #book-index #indice .col-main {
             position: absolute;
             top: 24px;
             left: 0;
-            background-image: url(https://www.blinklearning.com/useruploads/r/a/154755326/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
+            background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
             padding: 0% 61% 6% 3%;
             background-size: contain;
             background-repeat: no-repeat;
@@ -1166,7 +1166,7 @@ body #book-index #indice .col-main {
             position: absolute;
             right: 0;
             top: 33px;
-            background-image: url(www.blinklearning.com/useruploads/r/a/155174616/activity_other_imported/Boto17_BarcanovaEditorial_Color_trans.png);
+            background-image: url(images/Boto17_BarcanovaEditorial_Color_trans.png);
             padding: 4% 0% 0% 12%;
             background-repeat: no-repeat;
             background-size: contain;
@@ -1621,7 +1621,7 @@ body #book-index #indice .col-main {
         /*CAJA 5 -Dictat*/
         .bck-box5 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/154941746/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-caja-dictat.png);
+        background: url(images/Barcanova_ESO_LenguaCatalana_icono-caja-dictat.png);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -1646,7 +1646,7 @@ body #book-index #indice .col-main {
         /*Caja 6 - Fondo Textura*/
         .bck-box6 {
         padding: 8px 28px;
-        background: url(https://www.blinklearning.com/useruploads/r/a/154962596/activity_other_imported/Barcanova_1ESOLENGUA_Fondo_caja_fondorallado.jpg);
+        background: url(images/Barcanova_1ESOLENGUA_Fondo_caja_fondorallado.jpg);
         background-size: contain;
         border: 3px solid white;
         box-shadow: 0 0 4px 1px #000000c9;
@@ -1672,7 +1672,7 @@ body #book-index #indice .col-main {
         /*Caja 9 - Solo se usa en el libro de Lengua*/
         .bck-box9 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/155495176/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-caja-9.png);
+        background: url(images/Barcanova_ESO_LenguaCatalana_icono-caja-9.png);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -1696,7 +1696,7 @@ body #book-index #indice .col-main {
         /*Caja 10*/
         .bck-box10 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/155498106/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-caja-10.png);
+        background: url(images/Barcanova_ESO_LenguaCatalana_icono-caja-10.png);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -1740,7 +1740,7 @@ body #book-index #indice .col-main {
 
         .bck-box12 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/155498836/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-caja-12.png);
+        background: url(images/Barcanova_ESO_LenguaCatalana_icono-caja-12.png);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -1882,7 +1882,7 @@ body #book-index #indice .col-main {
 
         .bck-box19 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/159407056/activity_other_imported/Barcanova_Estilo_ESO_Estrellacajamarron_2.jpg);
+        background: url(images/Barcanova_Estilo_ESO_Estrellacajamarron.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -1997,7 +1997,7 @@ body #book-index #indice .col-main {
         /*CAJA 25*/
         .bck-box25 .bck-title:before {
         content: "";
-        background: url(https://www.blinklearning.com/useruploads/r/a/165268866/activity_other_imported/Barcanova_ESO_icono-caja-25.png);
+        background: url(images/Barcanova_ESO_icono-caja-25.png);
         background-size: contain;
         background-repeat: no-repeat;
         padding: 28px;
@@ -2747,7 +2747,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .naranja .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941436/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceranaranja.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerasociales.png) !important;
         }
 
         #actividad .content .naranja .cke_contents ul li::before,
@@ -2784,7 +2784,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .amarillo .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446//Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         .amarillo .cke_contents .bck-ul-2 li:before,
@@ -2811,7 +2811,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .azul .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         .azul .cke_contents .bck-ul-2 li:before,
@@ -2845,7 +2845,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .rojo .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         .rojo .cke_contents .bck-ul-2 li:before,
@@ -2875,7 +2875,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .verde .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         .verde .cke_contents .bck-ul-2 li:before,
@@ -2901,7 +2901,7 @@ body #book-index #indice .col-main {
         /*Sección "dorado"*/
 
         #actividad .carousel-inner .dorado .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154755326/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png) !important;
         }
 
         #actividad .carousel-inner .dorado .item-container {
@@ -2949,7 +2949,7 @@ body #book-index #indice .col-main {
         /*SECCIÓN "verdesociales"*/
 
         #actividad .carousel-inner .verdesociales .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155498026/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraverde.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraverde.png) !important;
         }
 
         #actividad .carousel-inner .verdesociales .item-container {
@@ -2994,7 +2994,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .celeste .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         #actividad .content .celeste .cke_contents ol li::before,
@@ -3042,7 +3042,7 @@ body #book-index #indice .col-main {
         }
 
         #actividad .carousel-inner .morado .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941446/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
         }
 
         #actividad .content .morado .cke_contents ol li::before,
@@ -3101,70 +3101,45 @@ body #book-index #indice .col-main {
         }
 
         .item-container .icon-tick:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155299506/activity_other_imported/avaluapp.png);
+        background-image: url(images/Avaluapp.png);
         margin-top: -15px;
         padding: 13px;
         margin-left: 4px;
         }
 
         .item-container .icon-ordenador:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154962636/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador.png);
         margin-top: -15px;
         }
 
         .item-container .icon-ordenador-rojo:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155495216/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-roja.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-roja.png);
         margin-top: -15px;
         padding: 17px 13px 11px 20px;
         }
 
         .item-container .icon-ordenador-marron:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/159405566/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-marron.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-marron.png);
         margin-top: -15px;
         }
 
         .item-container .icon-ordenador-verde:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/160803026/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-verde.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-verde.png);
         margin-top: -15px;
         }
 
         .item-container .icon-ordenador-naranja:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/160803056/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-naranja.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-pantalla-ordenador-naranja.png);
         margin-top: -15px;
         }
 
         .item-container .icon-actividadgrupal:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155498786/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-ejerciciogrupal.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_icono-ejerciciogrupal.png);
         margin-top: -15px;
         }
 
         .item-container .icon-actividadODS:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/159405466/activity_other_imported/Barcanova_ESO_Icono_ODS.png);
-        margin-top: -15px;
-        }
-
-        .item-container .icon-nivel1mates:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155702666/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-matesnivel1_775111.png);
-        margin-top: -15px;
-        }
-
-        .item-container .icon-nivel2mates:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155702676/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-matesnivel2.png);
-        margin-top: -15px;
-        }
-
-        .item-container .icon-nivel3mates:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155702696/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-matesnivel3.png);
-        margin-top: -15px;
-        }
-
-        .item-container .icon-nivel1marron:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/159405536/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-marronnivel1.png);
-        margin-top: -15px;
-        }
-
-        .item-container .icon-nivel2marron:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/159405556/activity_other_imported/Barcanova_ESO_LenguaCatalana_icono-marronnivel2.png);
+        background-image: url(images/Barcanova_ESO_Icono_ODS.png);
         margin-top: -15px;
         }
 
@@ -3268,7 +3243,7 @@ body #book-index #indice .col-main {
         /*Cambio fondo de la slide - Banda azul*/
 
         .coursetag_abpmatesbarcanova #actividad .carousel-inner .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155439986/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraazul-2.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraazul.png);
         }
 
 
@@ -3720,7 +3695,7 @@ body #book-index #indice .col-main {
         }
 
         .coursetag_abpmatesbarcanova #actividad .carousel-inner .naranja .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/154941436/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceranaranja.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceranaranja.png);
         }
 
         /*---------------------------------------------*/
@@ -3731,7 +3706,7 @@ body #book-index #indice .col-main {
         /*Cabecera de la slide*/
 
         .coursetag_abplenguajebarcanova #actividad .carousel-inner .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155496946/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraroja.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraroja.png);
         }
 
 
@@ -4004,7 +3979,7 @@ body #book-index #indice .col-main {
         /*Cabecera de la slide*/
 
         .coursetag_abpbiologiabarcanova #actividad .carousel-inner .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155498026/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabeceraverde.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraverde.png);
         }
 
 
@@ -4287,7 +4262,7 @@ body #book-index #indice .col-main {
         /*Cabecera de la slide*/
 
         .coursetag_abpsocialesbarcanova #actividad .carousel-inner .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/155498746/activity_other_imported/Barcanova_ESO_LenguaCatalana_cabecerasociales.png);
+        background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerasociales.png);
         }
 
 
@@ -4570,7 +4545,7 @@ body #book-index #indice .col-main {
         /*Cabecera de la slide*/
 
         .coursetag_abpmarronbarcanova #actividad .carousel-inner .item-container:before {
-        background-image: url(https://www.blinklearning.com/useruploads/r/a/159407036/activity_other_imported/Barcanova_ESO_cabeceramarron.png);
+        background-image: url(images/Barcanova_ESO_cabeceramarron.png);
         }
 
 
