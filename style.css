@@ -609,7 +609,7 @@ body #book-index #indice .col-main {
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item {
                 flex: unset;
                 flex-direction: row; }
-              #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
+              #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .separator,
               #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .separator {
                 color: #ffffff;
@@ -1308,7 +1308,8 @@ body #book-index #indice .col-main {
           font-family: "Pt Sans Narrow";
           font-weight: 600;
         }
-        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator,
         body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .separator,
         body #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .separator {
           font-weight: 700;
@@ -4187,7 +4188,7 @@ body #book-index #indice .col-main {
         @media (hover: hover){
           .coursetag_abplenguajebarcanova .go-back button:hover,
           .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover,
-          .coursetag_abplenguajebarcanova#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
+          .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
         color: #75B042;
         }
       }
@@ -4754,7 +4755,7 @@ body #book-index #indice .col-main {
         @media (hover: hover) {
           .coursetag_abpmarronbarcanova .go-back button:hover,
           .coursetag_abpmarronbarcanova #layout-container div.go-back button:hover,
-          .coursetag_abpmarronbarcanova#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
+          .coursetag_abpmarronbarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
         color: #B86048;
         }
       }
