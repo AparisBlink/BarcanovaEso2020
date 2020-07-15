@@ -1263,9 +1263,16 @@ body #book-index #indice .col-main {
 
         body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
         body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a,
-         body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+        body #book-index #indice .units ul#list-units li:not(.disabled).active a {
         background: #ffcb00;
         }
+
+        body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+        body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+        background: #ffcb00;
+        }
+
+
         #book-index #indice .unit-content .actividades .item {
           opacity: 1;
         }
@@ -3313,7 +3320,12 @@ body #book-index #indice .col-main {
         }
 
         body.coursetag_abpmatesbarcanova:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpmatesbarcanova book-index #indice .units ul li.active a {
+        .coursetag_abpmatesbarcanova #book-index #indice .units ul li.active a {
+        background: #0aabdd;
+        }
+
+        body.coursetag_abpmatesbarcanova:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+        body.coursetag_abpmatesbarcanova #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
         background: #0aabdd;
         }
 
@@ -3890,9 +3902,14 @@ body #book-index #indice .col-main {
         }
 
         body.coursetag_abplenguajebarcanova:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abplenguajebarcanova book-index #indice .units ul li.active a {
+        .coursetag_abplenguajebarcanova #book-index #indice .units ul li.active a {
         background: #D2204F;
         }
+
+        body.coursetag_abplenguajebarcanova:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+        body.coursetag_abplenguajebarcanova #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+        background: #D2204F;
+         }
 
 
         /*Pop up lenguaje*/
@@ -4181,9 +4198,14 @@ body #book-index #indice .col-main {
         }
 
         body.coursetag_abpbiologiabarcanova:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
-        .coursetag_abpbiologiabarcanova book-index #indice .units ul li.active a {
+        .coursetag_abpbiologiabarcanova #book-index #indice .units ul li.active a {
         background: #75B042;
         }
+
+        body.coursetag_abpbiologiabarcanova:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+        body.coursetag_abpbiologiabarcanova #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+          background: #75B042;
+      }
 
 
         /* Primera y segunda pantalla con tags*/
@@ -4468,6 +4490,11 @@ body #book-index #indice .col-main {
         background: #F07F3C;
         }
 
+        body.coursetag_abpsocialesbarcanova:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+         body.coursetag_abpsocialesbarcanova #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+          background: #F07F3C;
+      }
+
 
         /* Primera y segunda pantalla con tags*/
 
@@ -4751,6 +4778,11 @@ body #book-index #indice .col-main {
         .coursetag_abpmarronbarcanova book-index #indice .units ul li.active a {
         background: #B86048;
         }
+
+        body.coursetag_abpmarronbarcanova:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+         body.coursetag_abpmarronbarcanova #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+          background: #B86048;
+      }
 
 
         /* Primera y segunda pantalla con tags*/
