@@ -4178,9 +4178,9 @@ body #book-index #indice .col-main {
         /*Link con abpbiologiabarcanova*/
 
         @media (hover: hover){
-          .coursetag_abplenguajebarcanova .go-back button:hover,
-          .coursetag_abplenguajebarcanova #layout-container div.go-back button:hover,
-          .coursetag_abplenguajebarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
+          .coursetag_abpbiologiabarcanova .go-back button:hover,
+          .coursetag_abpbiologiabarcanova #layout-container div.go-back button:hover,
+          .coursetag_abpbiologiabarcanova #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
         color: #75B042;
         }
       }
@@ -4941,7 +4941,7 @@ body #book-index #indice .col-main {
         content: "";
         background: url(images/Logo17_BarcanovaEditorial_100Blanc_trans_copia.png);
         padding: 17px 80px;
-        background-size: 32px;
+        background-size: 113px;
         background-repeat: no-repeat;
     }
   }
