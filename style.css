@@ -3090,6 +3090,11 @@ body #book-index #indice .col-main {
         background: #E6E6FA !important;
         }
 
+        /*SECCION "cabecerablanca"*/
+         #actividad .carousel-inner .cabecerablanca .item-container:before {
+          background-image: url(images/Barcanova_ESO_LenguaCatalana_cabecerablanca.png) !important;
+        }
+
         /*ICONOS*/
 
         .item-container .icon:before {
