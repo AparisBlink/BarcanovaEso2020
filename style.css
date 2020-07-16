@@ -4921,14 +4921,28 @@ body #book-index #indice .col-main {
             height: 32px;
         }
       }
-      @media only screen and (min-device-width: 340px) and (max-device-width: 991px){
+      @media only screen and (min-device-width: 340px) and (max-device-width: 480px){
       .navbar.libro:before {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 7px;
+        left: 19px;
         content: "";
         background: url(images/Logo17_BarcanovaEditorial_Movil.png);
-        padding: 10px 20px;
+        padding: 17px 41px;
+        background-size: 32px;
+        background-repeat: no-repeat;
+      }
+    }
+    @media only screen and (min-device-width: 480px) and (max-device-width: 768px){
+      .navbar.libro:before {
+        position: absolute;
+        top: 7px;
+        left: 19px;
+        content: "";
+        background: url(images/Logo17_BarcanovaEditorial_100Blanc_trans_copia.png);
+        padding: 17px 80px;
+        background-size: 32px;
+        background-repeat: no-repeat;
     }
   }
 
