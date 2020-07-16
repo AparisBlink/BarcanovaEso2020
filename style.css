@@ -1015,12 +1015,12 @@ body #book-index #indice .col-main {
             cursor: pointer;
             width: auto;
             height: auto;
-            padding: 3px 20px;
+            padding: 3px 15px;
             color: #ffcb00;
             text-align: center;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            transition: all 0.5s;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            transition: all 0.2s;
             }
             .slider-indicators {
             position: static;
@@ -1032,32 +1032,36 @@ body #book-index #indice .col-main {
             width: auto;
             background: transparent;
             border: 0;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            transition: all 0.5s;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            transition: all 0.2s;
             }
             .navbar-bottom .edit .slider-indicators .concat.active,
             .navbar-bottom .slider-indicators .active {
             background-color: #feca0a;
             color: #00111d;
             height: auto;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
             border-radius: 20px;
             width: auto;
-            padding: 3px 25px;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            transition: all 0.5s;
+            padding: 3px 15px;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            transition: all 0.2s;
             }
             li.slider-indicator:hover {
             background-color: #feca0a;
             color: #00111d;
             height: auto;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
             border-radius: 20px;
-            padding: 3px 25px;
+            padding: 3px 15px;
             text-align: center;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            transition: all 0.5s;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            transition: all 0.2s;
             }
             body.edit .slider-indicators .concat {
                 color: white;
