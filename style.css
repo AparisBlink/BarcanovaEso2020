@@ -4915,12 +4915,22 @@ body #book-index #indice .col-main {
         }
         }
         /*QUERIES PARA VARIACIÓN DEL LOGO EN DIFERENTES TAMAÑOS DE PANTALLA*/
-        @media only screen and (min-device-width: 993px) and (max-device-width: 1150px) {
+        @media only screen and (min-device-width: 992px) and (max-device-width: 1150px) {
           .libro-left ul li .title:before {
             background-image: url(images/Logo17_BarcanovaEditorial_Movil.png) !important;
+            height: 32px;
         }
-
-        }
+      }
+      @media only screen and (min-device-width: 340px) and (max-device-width: 991px){
+      .navbar.libro:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        background: url(images/Logo17_BarcanovaEditorial_Movil.png);
+        padding: 10px 20px;
+    }
+  }
 
    /************************
    * CSS AÑADIDO POR HTML *
