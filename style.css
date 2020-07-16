@@ -4914,6 +4914,13 @@ body #book-index #indice .col-main {
             padding: 12% 40px 0px 40px !important;
         }
         }
+        /*QUERIES PARA VARIACIÓN DEL LOGO EN DIFERENTES TAMAÑOS DE PANTALLA*/
+        @media only screen and (min-device-width: 993px) and (max-device-width: 1150px) {
+          .libro-left ul li .title:before {
+            background-image: url(images/Logo17_BarcanovaEditorial_Movil.png) !important;
+        }
+
+        }
 
    /************************
    * CSS AÑADIDO POR HTML *
