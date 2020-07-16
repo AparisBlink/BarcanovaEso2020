@@ -938,9 +938,9 @@ body #book-index #indice .col-main {
 
         /*--------------*/
 
-        /*------------------------------------------*/
-            /*DISPLAY EN LA PRIMERA Y SEGUNDA PANTALLA*/
-            /*-------------------------------------------*/
+      /*------------------------------------------*/
+      /*DISPLAY EN LA PRIMERA Y SEGUNDA PANTALLA*/
+      /*-------------------------------------------*/
             #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
                 display: none;
             }
@@ -1084,28 +1084,13 @@ body #book-index #indice .col-main {
             margin-left: -40px;
             }
         /*-----*/
-
-        /*CAMBIOS EN EL ESTILO ABP*/
-        /*.abp-resources-list-item-text-aux-2 .abp-activity-pages {
-        display: none;
-        }
-
-        .abp-button-icon.abp-button-lock.abp-unlock .abp-icon {
-        display: none;
-        }
-
-        .abp-button-icon.abp-button-lock .abp-icon {
-        display: none;
-        }
-        */
-
         /**/
 
         /*------------------*/
         /*Cambios en los iconos*/
         /*--------------------*/
 
-            /*Iconos desplegables*/
+            /*Iconos en menú desplegable*/
             body #book-index #indice .col-main .unit-content .content .material .item .imagen.video:before,
              body #book-index #indice .col-main .unit-content .content .material .item .imagen.musica:before {
              width: 65px;
@@ -1119,7 +1104,7 @@ body #book-index #indice .col-main {
             background-image: none;
             background-color: #223c3f;   
             }
-            
+
             #book-index #indice .unit-content .material .item .imagen:before {
             width: 65px;
             height: 65px;
@@ -1144,41 +1129,10 @@ body #book-index #indice .col-main {
             height: 100px;
             }
         /**---*/    
-        /*------------------------------*    
-        /*IMAGEN DE FONDO DE CADA SLIDE - CAMBIAR PARA CADA LIBRO*/
-        /*-------------------------------*/ 
-            #actividad .carousel-inner .item-container {
-            background: #ffff;
-            box-shadow: none;
-            padding: 100px 40px 0px 40px !important;
-            margin-bottom: 100px;
-            }
 
-            #actividad .carousel-inner .item-container:before {
-            content: "";
-            position: absolute;
-            top: 24px;
-            left: 0;
-            background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
-            padding: 0% 61% 6% 3%;
-            background-size: contain;
-            background-repeat: no-repeat;
-            }
-
-            #actividad .carousel-inner .item-container:after {
-            content: "";
-            position: absolute;
-            right: 0;
-            top: 33px;
-            background-image: url(images/Boto17_BarcanovaEditorial_Color_trans.png);
-            padding: 4% 0% 0% 12%;
-            background-repeat: no-repeat;
-            background-size: contain;
-            }
-        /**----***/    
 
         /*--------------------------------*/
-        /*CAMBIOS COLOR PRIMERA Y SEGUNDA PANTALLA*/
+        /*CAMBIOS EN  PRIMERA Y SEGUNDA PANTALLA*/
         /*---------------------------------*/      
         #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
         background: #FDCF00;
@@ -1341,6 +1295,11 @@ body #book-index #indice .col-main {
         .navbar.libro .popover.bottom>.arrow:after {
             border-bottom-color: #071822;
         }
+        /*-------*/
+
+        /*-------------------------------------------------------------------*/
+        /*------------ CAMBIO DE ICONOS EN SEGUNDA PANTALLA -----------------*/
+        /*-------------------------------------------------------------------*/
 
         /* ICONOS CONTENIDO UNIDAD*/
         #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img {
@@ -1410,7 +1369,7 @@ body #book-index #indice .col-main {
          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-7.url {
           background-image: url(/themes/responsive/images/contenido/recurso-icon-url.png) !important;
          }
-        /**/ 
+
         
          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer,
           #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-outer {
@@ -1422,13 +1381,48 @@ body #book-index #indice .col-main {
             background-color: white;
          }
 
+         /**/ 
+
          
 
         /*-------------------------------------------------------------------------------------------------------------*/
         /* -----------------------------------------ESTILOS CK-EDITOR--------------------------------------------------*/
         /*-------------------------------------------------------------------------------------------------------------*/
-        
-        /* Titulo de la slide*/
+
+        /*------------------------------*/    
+        /*IMAGEN Cabecera de la slide - CAMBIAR PARA CADA LIBRO*/
+        /*-------------------------------*/ 
+        #actividad .carousel-inner .item-container {
+          background: #ffff;
+          box-shadow: none;
+          padding: 100px 40px 0px 40px !important;
+          margin-bottom: 100px;
+          }
+
+          #actividad .carousel-inner .item-container:before {
+          content: "";
+          position: absolute;
+          top: 24px;
+          left: 0;
+          background-image: url(images/Barcanova_ESO_LenguaCatalana_cabeceraamarilla.png);
+          padding: 0% 61% 6% 3%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          }
+
+          #actividad .carousel-inner .item-container:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 33px;
+          background-image: url(images/Boto17_BarcanovaEditorial_Color_trans.png);
+          padding: 4% 0% 0% 12%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          }
+      /**----***/    
+
+        /* Titulo de la slide - Tiene display none porque no queremos que se vea.*/
         #actividad .content .header .title {
           display: none;
         }
@@ -1436,7 +1430,7 @@ body #book-index #indice .col-main {
           display: none;   
         }
         
-        /*Titulo principal - Bck-title1 - Tiene cambio a naranja cuando cambia la sección*/
+        /*Titulo principal - Bck-title1 */
         .bck-title1:before {
         content: "»";
         margin-right: 8px;
@@ -1465,15 +1459,6 @@ body #book-index #indice .col-main {
         margin-top: 0;
         }
 
-        /*Título Principal 2 con sección Actividad "act"*/
-        .act .bck-title2 {
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-weight: bold;
-        font-size: 30px;
-        letter-spacing: 0;
-        margin: 0px 0px 18px 0px;
-        }
-
         /*Título 1*/
         .bck-title3 {
         font-family: "Montserrat", sans-serif;
@@ -1483,18 +1468,6 @@ body #book-index #indice .col-main {
         background: none;
         font-size: 23px;
         width: auto;
-        }
-
-        /*Título 1 en slide con sección Actividad "act"*/
-        .act .bck-title3 {
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-weight: 700;
-        font-size: 25px;
-        letter-spacing: 0;
-        margin: 0px 0px 25px 0px;
-        padding: 0;
-        width: auto;
-        color: #808285;
         }
 
         /*Título 2*/
@@ -1715,7 +1688,6 @@ body #book-index #indice .col-main {
         margin-left: -78px;
         margin-top: -5px;
         }
-
         .bck-box10 .bck-title {
         background: #091922;
         color: white;
@@ -1723,16 +1695,13 @@ body #book-index #indice .col-main {
         font-family: "Montserrtat", sans-serif;
         font-weight: 900;
         }
-
         .bck-box10 .bck-content {
         background: #E0EBD2;
         padding: 8px 28px;
         border: 2px solid #071822;
         }
 
-
         /*Caja 11*/
-
         .bck-box11 .bck-title {
         background: #75B042;
         color: white;
@@ -1746,9 +1715,7 @@ body #book-index #indice .col-main {
         border-right: 5px solid #75b042;
         }
 
-
         /*Caja 12*/
-
         .bck-box12 .bck-title:before {
         content: "";
         background: url(images/Barcanova_ESO_LenguaCatalana_icono-caja-12.png);
@@ -1759,7 +1726,6 @@ body #book-index #indice .col-main {
         margin-left: -78px;
         margin-top: -5px;
         }
-
         .bck-box12 .bck-title {
         background: #000000;
         color: white;
@@ -1767,16 +1733,13 @@ body #book-index #indice .col-main {
         font-family: "Montserrtat", sans-serif;
         font-weight: 900;
         }
-
         .bck-box12 .bck-content {
         background: #FDE8D8;
         padding: 8px 28px;
         border: 2px solid #071822;
         }
 
-
         /*Caja 13*/
-
         .bck-box13 {
         background: #fff;
         background-position-x: 0%;
@@ -1796,34 +1759,27 @@ body #book-index #indice .col-main {
         background-size: 30px 30px, 30px 30px, 30px 30px;
         padding: 38px 0px 10px 0px;
         }
-
         .bck-box13 .bck-content {
         padding: 8px 28px;
         }
 
-
         /*CAJA 14*/
-
         .bck-box14 {
         border: 0;
         border-bottom: 3px solid #737F86;
         }
-
         .bck-box14 .bck-title {
         font-family: 'Pangolin', cursive;
         color: white;
         padding: 5px 26px;
         background: #737F86;
         }
-
         .bck-box14 .bck-content {
         background: transparent;
         padding: 8px 28px;
         }
 
-
         /*Caja 15 - Fondo BIOLOGIA - Fondo verde */
-
         .bck-box15 {
         padding: 8px 28px;
         background: #C5DAAB;
@@ -1832,9 +1788,7 @@ body #book-index #indice .col-main {
         box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
         }
 
-
         /*Caja 16 - Para biologia - Fondo azul*/
-
         .bck-box16 {
         padding: 8px 28px;
         background: #E5EEF4;
@@ -1843,16 +1797,13 @@ body #book-index #indice .col-main {
         box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
         }
 
-
         /*Caja 17* - Redonda y con pregunta*/
-
         .bck-box17 {
         background: #ffeca8;
         padding: 18px;
         margin-bottom: 21px;
         border-radius: 25px;
         }
-
         .bck-box17:before {
         content: "?";
         position: absolute;
@@ -1869,9 +1820,7 @@ body #book-index #indice .col-main {
         font-family: 'Montserrat', sans-serif;
         }
 
-
         /*Caja 18 - Para sociales*/
-
         .bck-box18 {
         border: 3px solid #feca0a;
         }
@@ -1888,9 +1837,7 @@ body #book-index #indice .col-main {
         background: white;
         }
 
-
         /*Caja 19*/
-
         .bck-box19 .bck-title:before {
         content: "";
         background: url(images/Barcanova_Estilo_ESO_Estrellacajamarron.jpg);
@@ -1901,7 +1848,6 @@ body #book-index #indice .col-main {
         margin-left: -78px;
         margin-top: -5px;
         }
-
         .bck-box19 .bck-title {
         background: #071822;
         color: white;
@@ -1909,16 +1855,13 @@ body #book-index #indice .col-main {
         font-family: "Montserrtat", sans-serif;
         font-weight: 900;
         }
-
         .bck-box19 .bck-content {
         background: #EED7CC;
         padding: 8px 28px;
         border: 2px solid #071822;
         }
 
-
         /*CAJA 20*/
-
         .bck-box20 {
         background: #F7941D;
         padding: 18px;
@@ -1928,27 +1871,21 @@ body #book-index #indice .col-main {
         -webkit-border-radius: 25px 25px 25px 25px;
         }
 
-
         /*CAJA 21*/
-
         .bck-box21 {
         background: #C7E8E2;
         padding: 18px;
         margin-bottom: 21px;
         }
 
-
         /*CAJA 22*/
-
         .bck-box22 {
         background: #FDC689;
         padding: 18px;
         margin-bottom: 21px;
         }
 
-
         /*CAJA 23*/
-
         .bck-box23 .bck-title {
         background: #091922;
         color: white;
@@ -1956,16 +1893,13 @@ body #book-index #indice .col-main {
         font-family: "Pangolin", cursive;
         font-weight: 900;
         }
-
         .bck-box23 .bck-content {
         background: #FCE4E2;
         padding: 8px 28px;
         border: 2px solid #071822;
         }
 
-
         /*TODAS LAS LISTAS PASAN A ROJO DENTRO DE CAJA 23*/
-
         #actividad .content .cke_contents .bck-box23 ol li::before,
         #actividad .content .texto_curso .bck-box23 ol li::before,
         #actividad .popover-content .bck-box23 ol li::before,
@@ -1979,9 +1913,7 @@ body #book-index #indice .col-main {
         background-color: #F26670 !important;
         }
 
-
         /*CAJA 24*/
-
         .bck-box24 .bck-title {
         background: #F26670;
         color: white;
@@ -1995,7 +1927,6 @@ body #book-index #indice .col-main {
         border-radius: 25px 25px 0 0px;
         margin-left: 50px;
         }
-
         .bck-box24 .bck-content {
         background: #FAD5D3;
         padding: 18px;
@@ -2003,7 +1934,6 @@ body #book-index #indice .col-main {
         border: 0;
         border-radius: 25px;
         }
-
 
         /*CAJA 25*/
         .bck-box25 .bck-title:before {
@@ -2567,11 +2497,11 @@ body #book-index #indice .col-main {
         background: #2c56a2;
         box-shadow: 2px 7px 7px #00000091;
         }
-
+        /*Flipbox 2*/
         body:not(.edit) .bck-flipbox.bck-flipbox-2 .bck-flipbox-face.front {
         background: #ffcc03;
         }
-
+        /*Flipbox 3*/
         body:not(.edit) .bck-flipbox.bck-flipbox-3 .bck-flipbox-face.front {
         background: green;
         }
@@ -3868,7 +3798,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Botones con tag matesbarcanova*/
+        /*Botones con tag abplenguajebarcanova*/
 
         .coursetag_abplenguajebarcanova .btn-primary,
         .coursetag_abplenguajebarcanova .btn-primary.disabled,
@@ -3888,7 +3818,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Link con abpmatesbarcanova*/
+        /*Link con abplenguajebarcanova*/
 
         @media (hover: hover){
           .coursetag_abplenguajebarcanova .go-back button:hover,
@@ -3899,7 +3829,7 @@ body #book-index #indice .col-main {
       }
 
 
-        /*Menu desplegable con coursetag abpmatesbarcanova*/
+        /*Menu desplegable con coursetag abplenguajebarcanova*/
 
         body:not(.isTablet).coursetag_abplenguajebarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
         body:not(.isTablet).coursetag_abplenguajebarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
@@ -4452,7 +4382,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Botones con tag biologiabarcanova*/
+        /*Botones con tag coursetag_abpsocialesbarcanova*/
 
         .coursetag_abpsocialesbarcanova .btn-primary,
         .coursetag_abpsocialesbarcanova .btn-primary.disabled,
@@ -4472,7 +4402,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Link con abpbiologiabarcanova*/
+        /*Link con coursetag_abpsocialesbarcanova*/
 
         @media (hover: hover) {
           .coursetag_abpsocialesbarcanova .go-back button:hover,
@@ -4741,7 +4671,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Botones con tag biologiabarcanova*/
+        /*Botones con tag coursetag_abpmarronbarcanova*/
 
         .coursetag_abpmarronbarcanova .btn-primary,
         .coursetag_abpmarronbarcanova .btn-primary.disabled,
@@ -4761,7 +4691,7 @@ body #book-index #indice .col-main {
         }
 
 
-        /*Link con abpbiologiabarcanova*/
+        /*Link con coursetag_abpmarronbarcanova*/
 
         @media (hover: hover) {
           .coursetag_abpmarronbarcanova .go-back button:hover,
@@ -4772,7 +4702,7 @@ body #book-index #indice .col-main {
       }
 
 
-        /*Menu desplegable con coursetag abpbiologiabarcanova*/
+        /*Menu desplegable con coursetag coursetag_abpmarronbarcanova*/
 
         body:not(.isTablet).coursetag_abpmarronbarcanova #book-index #indice .units ul li:not(.disabled) a:hover,
         body:not(.isTablet).coursetag_abpmarronbarcanova #book-index #indice .units ul#list-units li:not(.disabled).active a, body #book-index #indice .units ul#list-units li:not(.disabled).active a {
