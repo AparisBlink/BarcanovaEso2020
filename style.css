@@ -2057,6 +2057,7 @@ body #book-index #indice .col-main {
             -webkit-box-shadow: 7px 10px 13px -5px rgba(0,0,0,0.39);
             -moz-box-shadow: 7px 10px 13px -5px rgba(0,0,0,0.39);
             box-shadow: 7px 10px 13px -5px rgba(0,0,0,0.39);
+            margin-bottom: 10px;
         }
         .bck-box31 .bck-i-fullscreen-wrapper,
         .bck-box32 .bck-i-fullscreen-wrapper, 
