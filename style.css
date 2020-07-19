@@ -1063,9 +1063,21 @@ body #book-index #indice .col-main {
             -moz-transition: all 0.2s;
             transition: all 0.2s;
             }
+            /* Barra en Modo edición*/
             body.edit .slider-indicators .concat {
                 color: white;
             }
+            body.edit .slider-indicators li {
+              background: white;
+              color: #feca0a ;
+            }
+
+            body.edit .slider-indicators .concat.active {
+              background-color: #feca0a;
+              color: black;
+          }
+
+
         /*---*/
 
         /*------------------*/    
