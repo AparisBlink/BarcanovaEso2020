@@ -1296,6 +1296,11 @@ body #book-index #indice .col-main {
           font-weight: 600;
         }
 
+        body #layout-container div[id*="section-screen"] .section .section-content .tabs .tab [class*="section-title-"] {
+          font-family: "PT Sans Narrow";
+          font-size: 30px;
+      }
+
         /* DESPLEGABLE RECURSOS HTML*/
         .popover_resources_active .popover-title {
             font-family: 'Roboto Slab', serif;
@@ -4813,49 +4818,63 @@ body #book-index #indice .col-main {
         /* Smartphones (portrait & landscape) */
 
         @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-        #actividad .class_slide {
-            padding: 0;
-        }
-        #actividad .carousel-inner .item-container {
-            padding: 20% 40px 0px 40px !important;
-        }
-        #actividad .carousel-inner .item-container:before {
-            padding: 0% 65% 9% 11%;
-        }
-        #actividad .carousel-inner .item-container:after {
-            right: 12px;
-            padding: 7% 0% 3% 12%;
-            top: 14px;
-        }
-        .bck-title1 {
-            font-size: 25px !important;
-        }
-        .bck-title1:before {
-            font-size: 38px !important;
-        }
-        .bck-title2,
-        .bck-title4,
-        .bck-title5,
-        .bck-title6,
-        .coursetag_abpmatesbarcanova .bck-title3 {
-            font-size: 23px !important;
-        }
-        .bck-title3,
-        .bck-title7 {
-            font-size: 19px !important;
-        }
-        p {
-            font-size: 16px !important;
-        }
-        body {
-            font: 400 16px 'Roboto', sans-serif;
-            color: #414141;
-            background-color: #000000;
-        }
-        .bck-dropdown-titulo {
-            font-size: 18px !important;
-            padding-left: 1px;
-        }
+        /*CAMBIOS EN PRIMERA / SEGUNDA PANTALLA*/
+          body #layout-container div[id*="section-screen"] .section .section-data .section-title h1 {
+            font-size: 27px;
+          }
+          body #layout-container div[id*="section-screen"] .section .section-content .tabs .tab [class*="section-title-"] {
+            font-size: 20px;
+          }
+          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item,
+          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item,
+          #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item {
+            height: calc(90px + 5px);
+            font-size: 15PX;
+          }
+        /*CAMBIOS EN ESTILOS*/
+          #actividad .class_slide {
+              padding: 0;
+          }
+          #actividad .carousel-inner .item-container {
+              padding: 20% 40px 0px 40px !important;
+          }
+          #actividad .carousel-inner .item-container:before {
+              padding: 0% 65% 9% 11%;
+          }
+          #actividad .carousel-inner .item-container:after {
+              right: 12px;
+              padding: 7% 0% 3% 12%;
+              top: 14px;
+          }
+          .bck-title1 {
+              font-size: 25px !important;
+          }
+          .bck-title1:before {
+              font-size: 38px !important;
+          }
+          .bck-title2,
+          .bck-title4,
+          .bck-title5,
+          .bck-title6,
+          .coursetag_abpmatesbarcanova .bck-title3 {
+              font-size: 23px !important;
+          }
+          .bck-title3,
+          .bck-title7 {
+              font-size: 19px !important;
+          }
+          p {
+              font-size: 16px !important;
+          }
+          body {
+              font: 400 16px 'Roboto', sans-serif;
+              color: #414141;
+              background-color: #000000;
+          }
+          .bck-dropdown-titulo {
+              font-size: 18px !important;
+              padding-left: 1px;
+          }
         }
 
 
