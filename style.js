@@ -184,8 +184,8 @@
       { name: 'Tabla Azul Claro', element: 'table', attributes: { 'class': 'bck-table-5' } },
       { name: 'Tabla Morado Claro', element: 'table', attributes: { 'class': 'bck-table-6' } },
 
-      { name: 'Celda 1 color encabezado', element: 'td', attributes: { 'class': 'bck-td-1' } },
-      { name: 'Celda 2 color claro', element: 'td', attributes: { 'class': 'bck-td-2' } },
+      { name: 'Celda 1 color encabezado', element: 'td', attributes: { 'class': 'bck-td1' } },
+      { name: 'Celda 2 color claro', element: 'td', attributes: { 'class': 'bck-td2' } },
       { name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3' } }
 
       // Añadir elementos CKEditor aquí.
