@@ -982,10 +982,13 @@ body #book-index #indice .col-main {
             body { 
               background-color: #000000;
              }
-            body #actividad .content .item-container {
+          body #actividad .content .item-container {
               font: 400 18px 'Roboto', sans-serif;
-           }
-           #layout-container {
+          }
+           body #layout-container {
+            font: 400 15px 'Roboto', sans-serif;
+          }
+          body #book-index {
             font: 400 15px 'Roboto', sans-serif;
           }
             .texto_curso p {
