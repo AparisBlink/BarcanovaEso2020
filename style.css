@@ -974,11 +974,17 @@ body #book-index #indice .col-main {
         /*--------------------------*/
         /*Ajustes generales que afectan a todas las slides*/
         /*---------------------------*/
-            body {
+            /*body {
             font: 400 18px 'Roboto', sans-serif;
             color: #414141;
             background-color: #000000;
-            }
+            }*/
+            body #actividad .content .item-container {
+              font: 400 18px 'Roboto', sans-serif;
+           }
+           #layout-container {
+            font: 400 15px 'Roboto', sans-serif;
+          }
             .texto_curso p {
             line-height: 1.7em!important;
             margin-bottom: 10px;
@@ -2765,7 +2771,7 @@ body #book-index #indice .col-main {
         background: #0085AE;
         }
 
-        body .azul {
+        body #actividad .content .item-container .azul  {
         color: white;
         }
 
@@ -2799,7 +2805,7 @@ body #book-index #indice .col-main {
         background: #D2204F;
         }
 
-        body .rojo {
+        body #actividad .content .item-container .rojo {
         color: white;
         }
 
@@ -3360,8 +3366,8 @@ body #book-index #indice .col-main {
         /*Cambio de letra*/
 
         body.coursetag_abpmatesbarcanova {
-        font: 400 18px 'Times New Roman', serif;
-        }
+          font: 400 18px 'Times New Roman', serif;
+          }
 
 
         /*TITULOS*/
@@ -4866,10 +4872,8 @@ body #book-index #indice .col-main {
           p {
               font-size: 16px !important;
           }
-          body {
+          body #actividad .content .item-container {
               font: 400 16px 'Roboto', sans-serif;
-              color: #414141;
-              background-color: #000000;
           }
           .bck-dropdown-titulo {
               font-size: 18px !important;
