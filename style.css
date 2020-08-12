@@ -3365,7 +3365,7 @@ body #book-index #indice .col-main {
 
         /*Cambio de letra*/
 
-        body.coursetag_abpmatesbarcanova {
+        body.coursetag_abpmatesbarcanova #actividad .content .item-container {
           font: 400 18px 'Times New Roman', serif;
           }
 
