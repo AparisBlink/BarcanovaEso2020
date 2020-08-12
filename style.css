@@ -979,6 +979,9 @@ body #book-index #indice .col-main {
             color: #414141;
             background-color: #000000;
             }*/
+            body { 
+              background-color: #000000;
+             }
             body #actividad .content .item-container {
               font: 400 18px 'Roboto', sans-serif;
            }
